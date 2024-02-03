@@ -1,7 +1,7 @@
 ## Drowsiness-Detection-System
 This project aims to detect drowsiness using computer vision techniques. It monitors the person's face in real-time through a webcam feed and alerts if signs of drowsiness or sleepiness are detected.
 
-## Requirements
+### Requirements
 1. OpenCV
 2. NumPy
 3. Dlib
@@ -15,7 +15,7 @@ Note: for dlib package, if you're encountering any error while installiing, down
 
 You need to download "shape_predictor_68_face_landmarks.dat" file for facial detection. Without this file, data for facial detection which dlib uses won't work.
 
-## Features
+### Features
 1. Real-time face detection using OpenCV
 2. Face landmark detection with Dlib
 3. Analysis of eye blinks to determine drowsiness levels
